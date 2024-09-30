@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    position: fixed; 
+   right: 0;
+   left: 0;
+    top: 0;
+    bottom: 0;
+    width:100%;
+    height: 50px;
+    background-color: #112c02;
+    padding: 10px;
+    z-index: 2;
+}
+h1{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    border: 2px solid rgb(247, 137, 10);
+    border-radius: 30% 0 30% 0;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(255, 155, 6);
+}
+.itm{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.itm1{
+    border: 2px solid #f5ac37;
+    background-color: #f5ac37;
+    width: 80px;
+    height: 35px;
+    border-radius: 30%;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.itm2{
+    border: 2px solid #f5ac37;
+    background-color: #f5ac37;
+    width: 80px;
+    height: 35px;
+    border-radius: 30%;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    top: 10px;
+    left: 30px;
+} 
+
+.itm3{
+    border: 2px solid #f5ac37;
+    background-color: #f5ac37;
+    width: 80px;
+    height: 30px;
+    border-radius: 30%;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+} 
+
+.itm4{
+    border: 2px solid #f5ac37;
+    background-color: #f5ac37;
+    width: 80px;
+    height: 30px;
+    border-radius: 30%;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.im1{
+    width: 35%;
+    height: 350px;
+    margin-top: -30px;
+    margin-left: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: -300px;
+margin-left: 400px;
+    }
+    
+    .div1{
+    position: relative;
+    border: 4px solid rgb(2, 2, 74);
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(2, 2, 86);
+    
+    }
+    .img1{
+    position: absolute;
+    width: 100px;
+    left: 70px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    }
+    .pra{
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        font-size: 30px;
+        color: aliceblue;
+        font-style: italic;
+    }
+    .spn1{
+        color: aliceblue;
+        position: absolute;
+        top: 150px;
+        left: 40px;
+    }
+    
+    
+    .div2{
+        position: relative;
+        border: 4px solid rgb(2, 2, 74);
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(2, 2, 86);
+        
+        }
+        .img2{
+        position: absolute;
+        width: 100px;
+        left: 70px;
+        top: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        }
+        .pra1{
+            position: absolute;
+            top: 80px;
+            left: 20px;
+            font-size: 30px;
+            color: aliceblue;
+            font-style: italic;
+        }
+        .spn2{
+            color: aliceblue;
+            position: absolute;
+            top: 150px;
+            left: 22px;
+        }
+    
+        .div3{
+            position: relative;
+            border: 4px solid rgb(2, 2, 74);
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(2, 2, 86);
+            }
+            .img3{
+            position: absolute;
+            width: 100px;
+            left: 70px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+            }
+            .pra2{
+                position: absolute;
+                top: 80px;
+                left: 20px;
+                font-size: 30px;
+                color: aliceblue;
+                font-style: italic;
+            }
+            .spn3{
+                color: aliceblue;
+                position: absolute;
+                top: 150px;
+                left: 30px;
+            }
+    
+            .div4{
+                position: relative;
+                border: 4px solid rgb(2, 2, 74);
+                border-radius: 50%;
+                width: 230px;
+                height: 230px;
+                background-color: rgb(2, 2, 86);
+                
+                }
+                .img4{
+                position: absolute;
+                width: 100px;
+                left: 70px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+                }
+                .pra3{
+                    position: absolute;
+                    top: 80px;
+                    left: 20px;
+                    font-size: 30px;
+                    color: aliceblue;
+                    font-style: italic;
+                }
+                .spn4{
+                    color: aliceblue;
+                    position: absolute;
+                    top: 150px;
+                    left: 40px;
+                }
+                .div5{
+                    position: relative;
+                    border: 4px solid rgb(2, 2, 74);
+                    border-radius: 50%;
+                    width: 230px;
+                    height: 230px;
+                    background-color: rgb(2, 2, 86);
+                    
+                    }
+                    .img5{
+                    position: absolute;
+                    width: 90px;
+                    left: 60px;
+                    top: 10px;
+                    border: 1px solid black;
+                    border-radius: 50%;
+                    }
+                    .pra4{
+                        position: absolute;
+                        top: 80px;
+                        left: 20px;
+                        font-size: 30px;
+                       color: aliceblue;
+                       font-style: italic;
+                    }
+                    .spn5{
+                        color: aliceblue;
+                        position: absolute;
+                        top: 150px;
+                        left: 40px;
+                    }
+h2{
+    text-align: center;
+    border: 2px solid rgb(2, 2, 86);
+                        border-radius: 30%;
+                        width: 200px;
+                        height: 98px;
+                        color: aliceblue;
+                        background-color: rgb(2, 2, 86);
+                        margin: auto;
+                        font-style: italic;
+}
+                    .div6{
+                        font-size: 20px;
+                        font-weight: 300;
+                       line-height: 32px;
+                       border: 3px solid rgba(255, 166, 0, 0.648);
+                       padding: 5px;
+                       padding-left: 8px;
+                       background-color: rgba(255, 166, 0, 0.648);
+                       border-radius: 0 10% 0 10%;
+                       margin: 20px auto;
+                    }
+
+                    .s1{
+                        border: 2px solid rgb(2, 2, 86);
+                        border-radius: 30%;
+                        width: 40px;
+                        height: 40px;
+                        color: aliceblue;
+                        background-color: rgb(2, 2, 86);
+                        font-style: italic;
+                    }
+
+                    .frm{
+                       border: 2px solid beige;
+                       background-color: beige;
+                       padding: 20px;
+                       margin: 20px;
+                       border-radius: 0 5% 0 5%;
+                    }
+                    button{
+                        background-color: rgb(2, 2, 86);
+                        border: 2px solid rgb(2, 2, 86);
+                        border-radius: 30%;
+font-style: italic;
+                        color: aliceblue;
+                    }
